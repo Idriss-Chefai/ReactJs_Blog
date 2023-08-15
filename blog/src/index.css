@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Andika&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 *{
     margin : 0;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Andika', sans-serif;
     color : #333;
 }
 .navbar {
@@ -15,6 +15,7 @@
 }
 .navbar h1{
     color : #f1356d;
+    font-family: 'Indie Flower', cursive;
 }
 .navbar .links {
     margin-left : auto;
@@ -31,4 +32,19 @@
     max-width : 600px;
     margin : 40px  auto ; 
     padding : 20px ;
+}
+
+.blog-preview {
+    padding : 10px 16px;
+    margin : 20px 0 ; 
+    border-bottom: 1px solid #fafafa;
+}
+.blog-preview:hover{
+    box-shadow : 1px 3px 5px rgba(0,0,0,0.1);
+    cursor : pointer;
+}
+.blog-preview h2{
+    font-size: 20px;
+    color : #f1356d;
+    margin-bottom: 8px;
 }
