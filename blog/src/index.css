@@ -2,7 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 *{
     margin : 0;
-    font-family: 'Andika', sans-serif;
+    font-size : 20px;
+    font-family: 'Indie Flower', cursive;
     color : #333;
 }
 .navbar {
@@ -14,8 +15,9 @@
     border-bottom : 1px solid #f2f2f2;
 }
 .navbar h1{
+    font-size : 40px;
     color : #f1356d;
-    font-family: 'Indie Flower', cursive;
+    
 }
 .navbar .links {
     margin-left : auto;
@@ -47,4 +49,8 @@
     font-size: 20px;
     color : #f1356d;
     margin-bottom: 8px;
+}
+
+.home h2 {
+    margin-bottom : 20px;
 }
