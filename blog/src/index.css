@@ -2,17 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
 
-@font-face {
-    font-family: diedie;
-    src: url("../fonts/DIEDIEDI.TTF") format("truetype") ;
-}
-
 *{
     margin : 0;
     font-size : 20px;
     font-family: 'Indie Flower', cursive;
-    background-color: #1a1a1d;
-    color : white;
+    background-color: #1A120B;
+    color : #E5E5CB;
 }
 .navbar {
     
@@ -21,14 +16,13 @@
     align-items : center;
     max-width : 600px;
     margin : 0 auto;
-    border-bottom : 2px solid white;
+    border-bottom : 2px solid #D5CEA3;
     border-radius : 5px;
 }
 .navbar h1{
     letter-spacing: 2px;
-    font-family: 'diedie', cursive;
     font-size : 60px;
-    color: #c3073f ;
+    color: #D5CEA3 ;
 }
 .navbar .links {
     margin-left : auto;
@@ -50,15 +44,15 @@
 .blog-preview {
     padding : 10px 16px;
     margin : 20px 0 ; 
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #D5CEA3;
 }
 .blog-preview:hover{
-    box-shadow : 1px 3px 5px #c3073f;
+    box-shadow : 1px 3px 5px #E5E5CB;
     cursor : pointer;
 }
 .blog-preview h2{
     font-size: 20px;
-    color : #c3073f;
+    color : #3C2A21;
     margin-bottom: 8px;
 }
 
